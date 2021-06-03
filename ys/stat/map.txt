@@ -1,0 +1,387 @@
+
+23. Printing statistics.
+
+=== $paramod\serv_ctrl\RESET_STRATEGY=1296649801\RESET_PC=0\WITH_CSR=1 ===
+
+   Number of wires:                174
+   Number of wire bits:            236
+   Number of public wires:          22
+   Number of public wire bits:      53
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 86
+     AND2HDV0                        1
+     AND3HDV0                        1
+     AO22HDV0                       32
+     AOI211HDV0                      1
+     AOI21HDV0                       1
+     CLKINHDV0                       1
+     CLKNAND2HDV0                    1
+     CLKNOR2HDV2                     2
+     DQHDV2                         34
+     MAJ23HDV0                       1
+     NAND2BHDV0                      1
+     NAND3HDV0                       1
+     NOR3BBHDV0                      1
+     NOR3HDV0                        1
+     OA1B2HDV0                       1
+     OA211HDV0                       1
+     OA21HDV0                        1
+     OAI31HDV0                       1
+     OAOI211HDV0                     1
+     XNOR2CHDV0                      2
+
+=== $paramod\serv_mem_if\WITH_CSR=1 ===
+
+   Number of wires:                306
+   Number of wire bits:            434
+   Number of public wires:          23
+   Number of public wire bits:     120
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                151
+     AND2HDV0                        9
+     AND3HDV0                        1
+     AO1B2HDV0                       1
+     AO21HDV0                        1
+     AO221HDV0                       9
+     AOAI211HDV0                     1
+     AOI211HDV0                      6
+     AOI21BHDV0                      1
+     AOI21HDV0                       4
+     AOI22HDV0                       2
+     AOI2XB1HDV0                     2
+     AOI31HDV0                       1
+     CLKINHDV0                       6
+     CLKNAND2HDV0                    5
+     CLKNOR2HDV2                     3
+     CLKOR2HDV0                      1
+     DQHDV2                         33
+     MUX2NHDV0                       2
+     NAND2BHDV0                     17
+     NAND3BBHDV0                     2
+     NAND3HDV0                       1
+     NOR2BHDV0                       5
+     NOR3BBHDV0                      2
+     NOR4HDV0                        1
+     OA1B2HDV0                       3
+     OA221HDV0                      15
+     OAI211HDV0                      1
+     OAI21BHDV0                      1
+     OAI21HDV0                       3
+     OAI22BBHDV0                     1
+     OAI31HDV0                       3
+     OAOI211HDV0                     5
+     OR3HDV2                         1
+     XNOR2CHDV0                      2
+
+=== $paramod\serv_rf_if\WITH_CSR=1 ===
+
+   Number of wires:                106
+   Number of wire bits:            139
+   Number of public wires:          34
+   Number of public wire bits:      67
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 26
+     AND2HDV0                        4
+     AO211HDV0                       1
+     AO221HDV0                       1
+     AOAI211HDV0                     1
+     AOI211HDV0                      1
+     CLKINHDV0                       1
+     CLKMUX2HDV0                     1
+     CLKNAND2HDV0                    1
+     CLKOR2HDV0                      3
+     NAND2BHDV0                      1
+     NOR2BHDV0                       5
+     NOR3BHDV0                       1
+     NOR3HDV0                        1
+     OA21HDV0                        1
+     OAI211HDV0                      1
+     OAOI211HDV0                     1
+     OR4HDV0                         1
+
+=== $paramod\serv_state\RESET_STRATEGY=1296649801\WITH_CSR=1 ===
+
+   Number of wires:                189
+   Number of wire bits:            200
+   Number of public wires:          47
+   Number of public wire bits:      53
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 66
+     AND2HDV0                        5
+     AND3HDV0                        1
+     AND4HDV0                        1
+     AO21HDV0                        3
+     AO32HDV0                        1
+     AOI21HDV0                       3
+     AOI31HDV0                       1
+     AOI32HDV0                       1
+     CLKINHDV0                       2
+     CLKNAND2HDV0                    4
+     CLKNOR2HDV2                     3
+     CLKOR2HDV0                      1
+     DQHDV2                         13
+     NAND2BHDV0                      1
+     NAND4HDV0                       2
+     NOR2BHDV0                       5
+     NOR3HDV0                        3
+     NOR4BHDV0                       1
+     NOR4HDV0                        3
+     NOR4XXBBHDV0                    2
+     OA1B2HDV0                       1
+     OA21HDV0                        2
+     OAI211HDV0                      1
+     OAI21HDV0                       2
+     OAI22BBHDV0                     1
+     OAOI211HDV0                     1
+     OR3HDV2                         1
+     XNOR2CHDV0                      1
+
+=== serv_alu ===
+
+   Number of wires:                 73
+   Number of wire bits:             76
+   Number of public wires:          15
+   Number of public wire bits:      18
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 21
+     AND2HDV0                        1
+     AND3HDV0                        1
+     AOAI211HDV0                     1
+     AOI31HDV0                       1
+     CLKINHDV0                       2
+     CLKMUX2HDV0                     2
+     CLKNAND2HDV0                    2
+     CLKNOR2HDV2                     1
+     DQHDV2                          2
+     OAI211HDV0                      2
+     OAI21HDV0                       1
+     OAI31HDV0                       1
+     XNOR2CHDV0                      3
+     XOR2CHDV0                       1
+
+=== serv_bufreg ===
+
+   Number of wires:                122
+   Number of wire bits:            213
+   Number of public wires:          16
+   Number of public wire bits:      77
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 80
+     AND2HDV0                        1
+     AO21HDV0                        1
+     AO22HDV0                        1
+     AOI21BHDV0                      2
+     AOI22HDV0                       1
+     CLKINHDV0                       2
+     CLKMUX2HDV0                    29
+     CLKNAND2HDV0                    1
+     DQHDV2                         33
+     NAND3HDV0                       1
+     NAND4HDV0                       1
+     NOR3BBHDV0                      1
+     NOR3BHDV0                       1
+     OA1B2HDV0                       1
+     OA22HDV0                        1
+     OAI21HDV0                       3
+
+=== serv_csr ===
+
+   Number of wires:                158
+   Number of wire bits:            165
+   Number of public wires:          33
+   Number of public wire bits:      37
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 54
+     AND2HDV0                        2
+     AO1B2HDV0                       1
+     AOAI211HDV0                     3
+     AOI211HDV0                      2
+     AOI21HDV0                       1
+     AOI221HDV0                      1
+     AOI22HDV0                       1
+     AOI2XB1HDV0                     1
+     AOI31HDV0                       3
+     CLKINHDV0                       3
+     CLKMUX2HDV0                     1
+     CLKNAND2HDV0                    6
+     CLKNOR2HDV2                     1
+     CLKOR2HDV0                      1
+     DQHDV2                         10
+     MUX2NHDV0                       1
+     NAND2BHDV0                      2
+     NAND3BBHDV0                     1
+     NAND3HDV0                       2
+     NAND4HDV0                       1
+     NOR2BHDV0                       2
+     OA1B2HDV0                       1
+     OAI21HDV0                       2
+     OAI22BBHDV0                     2
+     OAI31HDV0                       1
+     OAOI211HDV0                     1
+     XOR2CHDV0                       1
+
+=== serv_decode ===
+
+   Number of wires:                219
+   Number of wire bits:            282
+   Number of public wires:          91
+   Number of public wire bits:     148
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 75
+     AND2HDV0                        4
+     AOI211HDV0                      2
+     AOI21HDV0                       1
+     AOI22BBHDV0                     2
+     CLKINHDV0                       4
+     CLKMUX2HDV0                     9
+     CLKNAND2HDV0                    6
+     CLKNOR2HDV2                     6
+     DQHDV2                         13
+     NAND2BHDV0                      4
+     NAND3HDV0                       1
+     NOR2BHDV0                       3
+     NOR3BBHDV0                      2
+     NOR3BHDV0                       2
+     NOR3HDV0                        3
+     NOR4BHDV0                       2
+     NOR4HDV0                        2
+     OAI211HDV0                      1
+     OAI21HDV0                       5
+     OAI31HDV0                       1
+     OR3HDV2                         1
+     OR4HDV0                         1
+
+=== serv_immdec ===
+
+   Number of wires:                162
+   Number of wire bits:            246
+   Number of public wires:          19
+   Number of public wire bits:      82
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 64
+     AND2HDV0                        1
+     CLKINHDV0                       1
+     CLKMUX2HDV0                     1
+     CLKNAND2HDV0                    4
+     DQHDV2                         27
+     MUX2NHDV0                       2
+     MUX3HDV0                       27
+     OAI22HDV0                       1
+
+=== serv_top ===
+
+   Number of wires:                113
+   Number of wire bits:            316
+   Number of public wires:         105
+   Number of public wire bits:     308
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 11
+     $paramod\serv_ctrl\RESET_STRATEGY=1296649801\RESET_PC=0\WITH_CSR=1      1
+     $paramod\serv_mem_if\WITH_CSR=1      1
+     $paramod\serv_rf_if\WITH_CSR=1      1
+     $paramod\serv_state\RESET_STRATEGY=1296649801\WITH_CSR=1      1
+     CLKMUX2HDV0                     1
+     CLKOR2HDV0                      1
+     serv_alu                        1
+     serv_bufreg                     1
+     serv_csr                        1
+     serv_decode                     1
+     serv_immdec                     1
+
+=== design hierarchy ===
+
+   serv_top                          1
+     $paramod\serv_ctrl\RESET_STRATEGY=1296649801\RESET_PC=0\WITH_CSR=1      1
+     $paramod\serv_mem_if\WITH_CSR=1      1
+     $paramod\serv_rf_if\WITH_CSR=1      1
+     $paramod\serv_state\RESET_STRATEGY=1296649801\WITH_CSR=1      1
+     serv_alu                        1
+     serv_bufreg                     1
+     serv_csr                        1
+     serv_decode                     1
+     serv_immdec                     1
+
+   Number of wires:               1622
+   Number of wire bits:           2307
+   Number of public wires:         405
+   Number of public wire bits:     963
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                625
+     AND2HDV0                       28
+     AND3HDV0                        4
+     AND4HDV0                        1
+     AO1B2HDV0                       2
+     AO211HDV0                       1
+     AO21HDV0                        5
+     AO221HDV0                      10
+     AO22HDV0                       33
+     AO32HDV0                        1
+     AOAI211HDV0                     6
+     AOI211HDV0                     12
+     AOI21BHDV0                      3
+     AOI21HDV0                      10
+     AOI221HDV0                      1
+     AOI22BBHDV0                     2
+     AOI22HDV0                       4
+     AOI2XB1HDV0                     3
+     AOI31HDV0                       6
+     AOI32HDV0                       1
+     CLKINHDV0                      22
+     CLKMUX2HDV0                    44
+     CLKNAND2HDV0                   30
+     CLKNOR2HDV2                    16
+     CLKOR2HDV0                      7
+     DQHDV2                        165
+     MAJ23HDV0                       1
+     MUX2NHDV0                       5
+     MUX3HDV0                       27
+     NAND2BHDV0                     26
+     NAND3BBHDV0                     3
+     NAND3HDV0                       6
+     NAND4HDV0                       4
+     NOR2BHDV0                      20
+     NOR3BBHDV0                      6
+     NOR3BHDV0                       4
+     NOR3HDV0                        8
+     NOR4BHDV0                       3
+     NOR4HDV0                        6
+     NOR4XXBBHDV0                    2
+     OA1B2HDV0                       7
+     OA211HDV0                       1
+     OA21HDV0                        4
+     OA221HDV0                      15
+     OA22HDV0                        1
+     OAI211HDV0                      6
+     OAI21BHDV0                      1
+     OAI21HDV0                      16
+     OAI22BBHDV0                     4
+     OAI22HDV0                       1
+     OAI31HDV0                       7
+     OAOI211HDV0                     9
+     OR3HDV2                         3
+     OR4HDV0                         2
+     XNOR2CHDV0                      8
+     XOR2CHDV0                       2
+

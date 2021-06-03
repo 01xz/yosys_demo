@@ -1,0 +1,16 @@
+# NOTE:
+# install `yosys` and `graphviz` before your start
+# `ys` means Yosys Scripts
+# `ysy` means Yosys SYnthesis
+
+# run yosys_demo
+$ cd ys
+$ make
+
+# check synthesized design in `out`
+# check figures in `ys/show` 
+# check stat info in `ys/stat`
+
+# cleanup
+$ cd ys
+$ make clean

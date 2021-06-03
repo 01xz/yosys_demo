@@ -1,0 +1,29 @@
+# read design
+read_verilog ../rtl/*.v
+hierarchy -check -top serv_top
+# show design (install "graphviz" to show in PDF format)
+show -notitle -stretch -format pdf -prefix show/read serv_top
+# log current info
+tee -q -o stat/read.txt stat
+
+# run synthesis
+synth
+# show synthesis results
+show -notitle -stretch -format pdf -prefix show/synth serv_top
+# log current info
+tee -q -o stat/synth.txt stat
+
+# mapping DFF
+dfflibmap -liberty ../lib/scc018ug_hd_rvt_tt_v1p8_25c_basic.lib
+# mapping logic
+abc -liberty ../lib/scc018ug_hd_rvt_tt_v1p8_25c_basic.lib
+# show mapping results
+show -notitle -stretch -format pdf -prefix show/map serv_top
+# log current info
+tee -q -o stat/map.txt stat
+
+# run cleanup
+clean
+
+# write synthesized design
+write_verilog ../out/ysy.v

@@ -1,0 +1,263 @@
+
+19. Printing statistics.
+
+=== $paramod\serv_ctrl\RESET_STRATEGY=1296649801\RESET_PC=0\WITH_CSR=1 ===
+
+   Number of wires:                 75
+   Number of wire bits:            137
+   Number of public wires:          22
+   Number of public wire bits:      53
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                120
+     $_ANDNOT_                      35
+     $_AND_                          1
+     $_AOI3_                         2
+     $_DFF_P_                       34
+     $_MUX_                         35
+     $_NAND_                         1
+     $_NOR_                          2
+     $_NOT_                          3
+     $_OAI4_                         1
+     $_ORNOT_                        1
+     $_OR_                           1
+     $_XNOR_                         3
+     $_XOR_                          1
+
+=== $paramod\serv_mem_if\WITH_CSR=1 ===
+
+   Number of wires:                109
+   Number of wire bits:            237
+   Number of public wires:          23
+   Number of public wire bits:     120
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                157
+     $_ANDNOT_                      11
+     $_AND_                          2
+     $_AOI3_                         1
+     $_AOI4_                         1
+     $_DFF_P_                       33
+     $_MUX_                         70
+     $_NAND_                         1
+     $_NOR_                          5
+     $_NOT_                          8
+     $_OAI3_                         9
+     $_OAI4_                         1
+     $_ORNOT_                        4
+     $_OR_                           6
+     $_XNOR_                         2
+     $_XOR_                          3
+
+=== $paramod\serv_rf_if\WITH_CSR=1 ===
+
+   Number of wires:                 51
+   Number of wire bits:             84
+   Number of public wires:          34
+   Number of public wire bits:      67
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 35
+     $_ANDNOT_                       8
+     $_AND_                          1
+     $_AOI3_                         4
+     $_MUX_                          3
+     $_NAND_                         2
+     $_NOR_                          1
+     $_NOT_                          4
+     $_OAI3_                         3
+     $_OR_                           9
+
+=== $paramod\serv_state\RESET_STRATEGY=1296649801\WITH_CSR=1 ===
+
+   Number of wires:                104
+   Number of wire bits:            115
+   Number of public wires:          47
+   Number of public wire bits:      53
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 92
+     $_ANDNOT_                      28
+     $_AND_                          3
+     $_AOI3_                         2
+     $_AOI4_                         3
+     $_DFF_P_                       13
+     $_MUX_                          4
+     $_NAND_                         4
+     $_NOR_                          3
+     $_NOT_                          9
+     $_OAI3_                         2
+     $_OAI4_                         1
+     $_ORNOT_                        3
+     $_OR_                          13
+     $_XNOR_                         2
+     $_XOR_                          2
+
+=== serv_alu ===
+
+   Number of wires:                 39
+   Number of wire bits:             42
+   Number of public wires:          15
+   Number of public wire bits:      18
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 28
+     $_ANDNOT_                       3
+     $_AND_                          5
+     $_AOI3_                         2
+     $_AOI4_                         1
+     $_DFF_P_                        2
+     $_MUX_                          2
+     $_NOR_                          1
+     $_NOT_                          2
+     $_OAI3_                         1
+     $_ORNOT_                        2
+     $_OR_                           1
+     $_XNOR_                         1
+     $_XOR_                          5
+
+=== serv_bufreg ===
+
+   Number of wires:                 32
+   Number of wire bits:            123
+   Number of public wires:          16
+   Number of public wire bits:      77
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 80
+     $_ANDNOT_                       2
+     $_AND_                          2
+     $_AOI3_                         2
+     $_DFF_P_                       33
+     $_MUX_                         35
+     $_NAND_                         2
+     $_NOR_                          1
+     $_NOT_                          1
+     $_XNOR_                         1
+     $_XOR_                          1
+
+=== serv_csr ===
+
+   Number of wires:                 82
+   Number of wire bits:             89
+   Number of public wires:          33
+   Number of public wire bits:      37
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 64
+     $_ANDNOT_                      11
+     $_AND_                          2
+     $_AOI3_                         3
+     $_DFF_P_                       10
+     $_MUX_                         15
+     $_NAND_                         9
+     $_NOR_                          3
+     $_NOT_                          2
+     $_OAI3_                         3
+     $_ORNOT_                        2
+     $_OR_                           4
+
+=== serv_decode ===
+
+   Number of wires:                130
+   Number of wire bits:            193
+   Number of public wires:          91
+   Number of public wire bits:     148
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 94
+     $_ANDNOT_                      19
+     $_AND_                          3
+     $_AOI3_                         3
+     $_DFF_P_                       13
+     $_MUX_                         14
+     $_NAND_                         5
+     $_NOR_                          3
+     $_NOT_                         10
+     $_OAI3_                         5
+     $_ORNOT_                        5
+     $_OR_                          14
+
+=== serv_immdec ===
+
+   Number of wires:                 61
+   Number of wire bits:            145
+   Number of public wires:          19
+   Number of public wire bits:      82
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 91
+     $_ANDNOT_                       1
+     $_AOI3_                         4
+     $_DFF_P_                       27
+     $_MUX_                         58
+     $_NOR_                          1
+
+=== serv_top ===
+
+   Number of wires:                106
+   Number of wire bits:            309
+   Number of public wires:         105
+   Number of public wire bits:     308
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 11
+     $_MUX_                          1
+     $_OR_                           1
+     $paramod\serv_ctrl\RESET_STRATEGY=1296649801\RESET_PC=0\WITH_CSR=1      1
+     $paramod\serv_mem_if\WITH_CSR=1      1
+     $paramod\serv_rf_if\WITH_CSR=1      1
+     $paramod\serv_state\RESET_STRATEGY=1296649801\WITH_CSR=1      1
+     serv_alu                        1
+     serv_bufreg                     1
+     serv_csr                        1
+     serv_decode                     1
+     serv_immdec                     1
+
+=== design hierarchy ===
+
+   serv_top                          1
+     $paramod\serv_ctrl\RESET_STRATEGY=1296649801\RESET_PC=0\WITH_CSR=1      1
+     $paramod\serv_mem_if\WITH_CSR=1      1
+     $paramod\serv_rf_if\WITH_CSR=1      1
+     $paramod\serv_state\RESET_STRATEGY=1296649801\WITH_CSR=1      1
+     serv_alu                        1
+     serv_bufreg                     1
+     serv_csr                        1
+     serv_decode                     1
+     serv_immdec                     1
+
+   Number of wires:                789
+   Number of wire bits:           1474
+   Number of public wires:         405
+   Number of public wire bits:     963
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                763
+     $_ANDNOT_                     118
+     $_AND_                         19
+     $_AOI3_                        23
+     $_AOI4_                         5
+     $_DFF_P_                      165
+     $_MUX_                        237
+     $_NAND_                        24
+     $_NOR_                         20
+     $_NOT_                         39
+     $_OAI3_                        23
+     $_OAI4_                         3
+     $_ORNOT_                       17
+     $_OR_                          49
+     $_XNOR_                         9
+     $_XOR_                         12
+
